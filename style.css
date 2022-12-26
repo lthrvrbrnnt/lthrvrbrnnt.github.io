@@ -1,0 +1,26 @@
+body{
+    padding: 0px;
+    background-color: black;
+	color: green;
+	font: 16px consolas;
+}
+
+.left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+	margin-right: 50px;
+}
+
+.right{
+    width: 70%;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: center;
+}
